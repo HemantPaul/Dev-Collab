@@ -4,19 +4,11 @@
 
 <br/>
 
-[![Node.js](https://img.shields.io/badge/Node.js-18+-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org)
-[![Express](https://img.shields.io/badge/Express.js-4.x-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com)
-[![MongoDB](https://img.shields.io/badge/MongoDB-7.x-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://mongodb.com)
-[![Socket.io](https://img.shields.io/badge/Socket.io-4.x-010101?style=for-the-badge&logo=socket.io&logoColor=white)](https://socket.io)
-[![JWT](https://img.shields.io/badge/JWT-Auth-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)](https://jwt.io)
-[![Passport](https://img.shields.io/badge/Passport.js-Local-34E27A?style=for-the-badge&logo=passport&logoColor=white)](http://passportjs.org)
-
-<br/>
 
 > **Multi-user collaborative code editor** — real-time sync, room-based auth, live cursors,
 > persistent session history, and a REST API. Built entirely from scratch.
 
-**[🌐 Live Demo](https://devcollab.up.railway.app)** &nbsp;·&nbsp; **[📂 Source Code](../devcollab/)** &nbsp;·&nbsp; **[📸 Screenshots](#screenshots)**
+**[🌐 Live Demo](https://devcollab.up.railway.app)** &nbsp;
 
 </div>
 
