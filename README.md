@@ -134,3 +134,5 @@ Environment variables managed via Railway dashboard. Auto-deploys on every push 
 **Built by Hemant Paul**
 
 </div>
+
+!!!Note: Internal architecture, API documentation, and implementation details have been intentionally omitted from this public repository.
