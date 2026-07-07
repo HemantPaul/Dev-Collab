@@ -44,24 +44,16 @@ A user creates a **Room**, shares the Room ID with teammates, and everyone who j
 ## Core Features
 
 ### ⚡ Real-time Code Sync
-Every keystroke is transmitted via **WebSocket (Socket.io)** and broadcast to all users in the room. A 300ms debounce on the client prevents event flooding — the sync event only fires when the user pauses, not on every individual keypress. The server saves each change to MongoDB, so the latest code is always persisted.
 
 ### 🔐 Dual-layer Authentication
-The app implements **two parallel auth systems**:
-- **Session-based auth** (Passport.js + express-session) for all web routes — the classic server-side session cookie model, stored in MongoDB via connect-mongo
-- **JWT-based auth** for the REST API — stateless, signed tokens sent in the `Authorization: Bearer` header, verified without touching the database
 
 ### 👥 Live Presence
-Active users in a room are tracked in a server-side `Map` (in-memory, per Socket.io instance). When someone joins or leaves, the updated user list is broadcast to everyone. Each user is assigned a unique warm color for visual identification.
 
 ### 💬 Built-in Chat
-A real-time chat panel lives inside every room, powered by the same Socket.io connection as the code sync. No extra connections, no extra infrastructure.
 
 ### 🗂️ Session History
-Room owners can save **code snapshots** at any point. Each snapshot stores the code, language, the username who saved it, and a timestamp — all as embedded subdocuments in MongoDB. Full history is viewable at `/room/:id/history`.
 
 ### 🌐 REST API
-A fully separate JWT-protected REST API (`/api/*`) exposes rooms and code for programmatic access — useful for CI pipelines, external tools, or future mobile clients.
 
 ---
 
