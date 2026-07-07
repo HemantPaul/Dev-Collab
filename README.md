@@ -61,13 +61,13 @@ A user creates a **Room**, shares the Room ID with teammates, and everyone who j
 
 ### Backend
 
-| Technology | Version | Why This Choice |
-|---|---|---|
-| **Node.js** | 18+ | Event-driven, non-blocking I/O — ideal for handling many concurrent WebSocket connections without thread overhead |
-| **Express.js** | 4.x | Minimal, unopinionated framework — gives full control over middleware pipeline and routing |
-| **Socket.io** | 4.x | Handles WebSocket connections with automatic fallback to HTTP long-polling; built-in room abstraction maps perfectly to the room model |
-| **Mongoose** | 8.x | ODM for MongoDB — schema validation, refs between collections, and clean async/await API |
-| **MongoDB** | 7.x | Flexible document model — code strings of any length, embedded subdocuments for chat/history, fast writes for frequent code updates |
+| Technology | Version |
+|---|---
+| **Node.js** | 18+ | 
+| **Express.js** | 4.x |
+| **Socket.io** | 4.x | 
+| **Mongoose** | 8.x | 
+| **MongoDB** | 7.x |
 
 ### Authentication
 
