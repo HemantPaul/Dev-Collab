@@ -71,33 +71,33 @@ A user creates a **Room**, shares the Room ID with teammates, and everyone who j
 
 ### Authentication
 
-| Technology | Why This Choice |
-|---|---|
-| **Passport.js** | Industry-standard auth middleware; pluggable strategies mean the same pipeline works for local, OAuth, JWT |
-| **passport-local** | Username/password strategy; delegates to the User model's `authenticate()` method |
-| **passport-local-mongoose** | Mongoose plugin that adds `register()`, `authenticate()`, bcrypt hashing, and salt management to the User schema automatically |
-| **jsonwebtoken** | Stateless API tokens — no session lookup needed for API routes; signed with HS256 and a server secret |
-| **express-session** | Server-side sessions for web routes; session ID stored in an HttpOnly cookie |
-| **connect-mongo** | Persists sessions to MongoDB so they survive server restarts |
-| **bcryptjs** | Used internally by passport-local-mongoose; adaptive hashing with salt means rainbow table attacks are infeasible |
+| Technology |
+|---|
+| **Passport.js** |
+| **passport-local** | 
+| **passport-local-mongoose** | 
+| **jsonwebtoken** |
+| **express-session** |
+| **connect-mongo** |
+| **bcryptjs** | 
 
 ### Views & Middleware
 
-| Technology | Why This Choice |
-|---|---|
-| **EJS** | Server-side templating with partials — no build step, no bundler, straightforward `res.render()` model |
-| **connect-flash** | One-time session messages for user feedback (success/error) — cleared after being read once |
-| **method-override** | HTML forms only support GET/POST; this middleware intercepts `?_method=DELETE` to enable RESTful routes |
-| **morgan** | HTTP request logger — logs method, path, status, and response time in development |
-| **dotenv** | Keeps secrets (DB URI, JWT secret) out of source code; loaded from `.env` at startup |
+| Technology | 
+|---|
+| **EJS** |
+| **connect-flash** |
+| **method-override** | 
+| **morgan** |
+| **dotenv** |
 
 ### Frontend (In-browser)
 
-| Technology | Why This Choice |
-|---|---|
-| **CodeMirror 5** | Battle-tested browser code editor; 15+ language modes, Dracula theme, bracket matching — no build step needed via CDN |
-| **Socket.io Client** | Pairs with the server-side Socket.io; handles reconnection automatically |
-| **Vanilla JS** | No React/Vue needed — the editor's real-time logic is event-driven and doesn't require a virtual DOM |
+| Technology | 
+|---|
+| **CodeMirror 5** | 
+| **Socket.io Client** | 
+| **Vanilla JS** |
 
 ---
 
