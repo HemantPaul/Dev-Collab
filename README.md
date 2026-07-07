@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=32&pause=1000&color=C2566A&center=true&vCenter=true&width=600&lines=⚡+DevCollab;Real-time+Collaborative+Code+Editor;Built+for+Engineers%2C+by+an+Engineer" alt="DevCollab" />
+**DEV COLLAB** - **Built by Hemant Paul**
 
 <br/>
 
