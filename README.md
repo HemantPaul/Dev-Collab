@@ -129,38 +129,9 @@ The application serves both interactive users and external clients. Supporting b
 
 ---
 
-## Running Locally
-
-```bash
-# Prerequisites: Node.js 18+, MongoDB running locally
-
-git clone https://github.com/YOUR_USERNAME/devcollab.git
-cd devcollab
-npm install
-
-# Configure environment
-cp .env.example .env
-# Edit .env with your MongoDB URI and secret keys
-
-npm run dev
-# → http://localhost:3000
-```
-
----
-
 ## Deployment
 
 Deployed on **Railway** with **MongoDB Atlas** (M0 free tier).
-
-```
-Railway  ──►  Node.js process (bin/www)
-                    │
-                    ├──► Express HTTP routes
-                    └──► Socket.io WebSocket server
-                                │
-                         MongoDB Atlas
-                    (users · rooms · sessions)
-```
 
 Environment variables managed via Railway dashboard. Auto-deploys on every push to `main`.
 
@@ -168,8 +139,6 @@ Environment variables managed via Railway dashboard. Auto-deploys on every push 
 
 <div align="center">
 
-**Built by Hemant**
-
-*Node.js · Express · Socket.io · MongoDB · Passport · JWT · EJS*
+**Built by Hemant Paul**
 
 </div>
