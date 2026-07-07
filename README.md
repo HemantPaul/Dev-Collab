@@ -8,7 +8,7 @@
 > **Multi-user collaborative code editor** — real-time sync, room-based auth, live cursors,
 > persistent session history, and a REST API. Built entirely from scratch.
 
-**[🌐 Live Demo](https://devcollab.up.railway.app)** &nbsp;
+**[🌐 Live Demo](https://devcollab-hemant-30.up.railway.app/)** &nbsp;
 
 </div>
 
