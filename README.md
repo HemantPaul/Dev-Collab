@@ -124,6 +124,7 @@ The application serves both interactive users and external clients. Supporting b
 ## Deployment
 
 Deployed on **Railway** with **MongoDB Atlas** (M0 free tier).
+after free trial moved to **RENDER**
 
 Environment variables managed via Railway dashboard. Auto-deploys on every push to `main`.
 
